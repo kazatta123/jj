@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: hls-proxy
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: "node proxy.js"
